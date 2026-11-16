@@ -34,7 +34,7 @@ works from ring 3, through the syscall interface, the way a hostile program
 would — and judges every call against the ABI contract with an oracle that is
 itself cross-checked by an independent model.
 
-Everything is built **brick by brick** (طوبة طوبة): a phase lands only when its
+Everything is built **brick by brick**: a phase lands only when its
 tests are green — **240 in-kernel tests**, a stress runner, and CI on every push.
 
 ```console
