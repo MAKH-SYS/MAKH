@@ -30,7 +30,7 @@ offer them the source of your modified version.
 ## How to get a commercial license
 
 Contact the copyright holder through the maintainer's GitHub profile:
-[@medaminkh-dev](https://github.com/medaminkh-dev).
+[@MAKH-SYS](https://github.com/MAKH-SYS).
 
 ## Contributions
 

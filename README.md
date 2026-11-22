@@ -6,13 +6,13 @@
 
 ### A from-scratch x86-64 operating system kernel that fuzzes itself from ring 0 and from ring 3 — and compiles itself.
 
-[![CI](https://github.com/medaminkh-dev/MAKH/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/medaminkh-dev/MAKH/actions/workflows/ci.yml)
+[![CI](https://github.com/MAKH-SYS/MAKH/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/MAKH-SYS/MAKH/actions/workflows/ci.yml)
 [![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
 [![Commercial license](https://img.shields.io/badge/commercial-available-success.svg)](LICENSING.md)
 ![Arch](https://img.shields.io/badge/arch-x86--64-informational)
 ![Language](https://img.shields.io/badge/C%20%2B%20asm-freestanding-lightgrey)
 ![Tests](https://img.shields.io/badge/in--kernel%20tests-240%20passing-brightgreen)
-[![Release](https://img.shields.io/badge/release-v1.4.0-orange)](https://github.com/medaminkh-dev/MAKH/releases/tag/v1.4.0)
+[![Release](https://img.shields.io/badge/release-v1.4.0-orange)](https://github.com/MAKH-SYS/MAKH/releases/tag/v1.4.0)
 
 [Quick start](#-quick-start) · [What makes it different](#-what-makes-makhos-different) · [KFUZZ](#-kfuzz-the-kernel-fuzzes-itself) · [UFUZZ](#-ufuzz-attacking-the-kernel-from-ring-3) · [Shell](#-the-shell) · [Architecture](#-architecture) · [Docs](#-documentation)
 
@@ -261,7 +261,7 @@ You need `gcc`, `nasm`, `grub-mkrescue` (with `xorriso`) and
 `qemu-system-x86_64`.
 
 ```sh
-git clone https://github.com/medaminkh-dev/MAKH.git && cd MAKH
+git clone https://github.com/MAKH-SYS/MAKH.git && cd MAKH
 make            # build makhos.kernel + makhos.iso
 make run        # boot it in QEMU
 ```
